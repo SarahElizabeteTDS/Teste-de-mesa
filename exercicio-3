@@ -12,3 +12,8 @@ for($i=0; $i < 7; $i++)
     }
 }
 
+/*
+  o valor de i na memória será: 0; 1; 2 (O "Coliseu está na posição 2, então, como no código, esta especificado o "break", o loop é interrompido)
+  
+  o terminal exibirá:o valor buscado está entre as maravilhas
+*/
