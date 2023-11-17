@@ -1,0 +1,11 @@
+<?php
+
+$numeros = [1, 22, 333];
+
+for($i=0; $i < 3; $i++)
+{
+  print($numeros[$i] . "-");
+}
+
+//valor de i na memória: 0; 1; 2
+//o que o terminal vai exibir:1-22-333-
