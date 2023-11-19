@@ -1,25 +1,25 @@
 <?php
 
-$mega_sena = [33, 4, 47, 7, 11, 25];
-$aux = 0;
-
-for($i=0; $i < 6; $i++)
-{
-    for($j=0; $j < 5; $j++)
+    $mega_sena = [33, 4, 47, 7, 11, 25];
+    $aux = 0;
+    
+    for($i=0; $i < 6; $i++)
     {
-        if($mega_sena[$j] > $mega_sena[$j + 1])
+        for($j=0; $j < 5; $j++)
         {
-            $aux = $mega_sena[$j];
-            $mega_sena[$j] = $mega_sena[$j + 1];
-            $mega_sena[$j + 1] = $aux;
+            if($mega_sena[$j] > $mega_sena[$j + 1])
+            {
+                $aux = $mega_sena[$j];
+                $mega_sena[$j] = $mega_sena[$j + 1];
+                $mega_sena[$j + 1] = $aux;
+            }
         }
     }
-}
-
-for($i=0; $i < 6; $i++)
-{
-    print($mega_sena[$i] .  " - ");
-}
+    
+    for($i=0; $i < 6; $i++)
+    {
+        print($mega_sena[$i] .  " - ");
+    }
 
 /*
   o valor de i na memória no primeiro for será: 0; 1; 2; 3; 4; 5 e 6 (que encerra o primeiro for, porque a afirmativa  6 < 6 não vai mais ser verdadeira.)
