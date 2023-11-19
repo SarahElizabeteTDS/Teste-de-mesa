@@ -1,11 +1,11 @@
 <?php
 
-$sete_maravilhas = ["Cristo Redentor","Chichén Itzá","Coliseu","Muralha da China","Petra","Machu Picchu","Taj Mahal"];
-
-for($i=0; $i < 7; $i++)
-{
-    print($i+1 . ": " . $sete_maravilhas[$i] .  "\n");
-}
+    $sete_maravilhas = ["Cristo Redentor","Chichén Itzá","Coliseu","Muralha da China","Petra","Machu Picchu","Taj Mahal"];
+    
+    for($i=0; $i < 7; $i++)
+    {
+        print($i+1 . ": " . $sete_maravilhas[$i] .  "\n");
+    }
 
 /*
   o valor de i na memória será: 0; 1; 2; 3; 4; 5; 6; 7 (quando chega a sete, sai do for)
