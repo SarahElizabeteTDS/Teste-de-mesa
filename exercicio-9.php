@@ -19,3 +19,20 @@
     print "\nTeste 7: ";
         var_dump(sort($pessoa));
 
+/*
+Teste 0: int(5)
+
+Teste 1: bool(true)
+
+Teste 2: bool(false)
+
+Teste 3: bool(false)
+
+Teste 4: bool(true)
+
+Teste 5: string(4) "nome"     
+
+Teste 6: string(9) "profissao"
+
+Teste 7: bool(true)
+*/
