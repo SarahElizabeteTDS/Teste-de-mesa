@@ -28,7 +28,7 @@
     {
         $numero = readline("Digite um número inteiro: ");
 
-        while (!is_numeric($numero) || intval($numero) != $numero) //se nao for numerico, ou se nao for inteiro, ele pede de novo
+        while (!is_numeric($numero) || intval($numero) != $numero) //se nao for numerico, ou se nao for inteiro, ele pede de novo, descobri esse fazendo o codigo da loteria
         {
             print "Número invalido, tem que ser inteiro\n";
             $numero = readline("Digite novamente: ");
